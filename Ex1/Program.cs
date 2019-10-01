@@ -20,6 +20,8 @@ namespace Ex1
             cr1.AddItem(3.45);
             cr1.AddItem(5.97);
 
+            CashRegister cr2 = new CashRegister();
+
         }
     }
 }
