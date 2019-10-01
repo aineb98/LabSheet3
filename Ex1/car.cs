@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex1
 {
-    public class car
+    public class Car
     {
         private string make;
 
@@ -23,6 +23,24 @@ namespace Ex1
         {
             get { return _model; }
             set { _model= value; }
+        }
+
+        private double currentSpeed;
+
+        public double CurrentSpeed
+
+        {
+            get { return currentSpeed; }
+            set { currentSpeed = value; }
+        }
+
+        private double engineSize;
+
+        public double EngineSize
+
+        {
+            get { return engineSize; }
+            set { engineSize = value; }
         }
 
     }
